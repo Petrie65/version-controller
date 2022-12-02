@@ -1,22 +1,32 @@
 {
-	"name": "version-controller",
-	"version": "1.0.0",
-	"description": "",
-	"main": "main.js",
-	"scripts": {
-		"start": "electron ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Petrie65/version-controller.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/Petrie65/version-controller/issues"
-	},
-	"homepage": "https://github.com/Petrie65/version-controller#readme",
-	"devDependencies": {
-		"electron": "^22.0.0"
-	}
+  "name": "version-controller",
+  "version": "1.0.0",
+  "description": "An application to test version control",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petrie65/version-controller.git"
+  },
+  "author": "pvz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Petrie65/version-controller/issues"
+  },
+  "homepage": "https://github.com/Petrie65/version-controller#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
 }
