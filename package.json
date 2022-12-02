@@ -1,0 +1,22 @@
+{
+	"name": "version-controller",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Petrie65/version-controller.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Petrie65/version-controller/issues"
+	},
+	"homepage": "https://github.com/Petrie65/version-controller#readme",
+	"devDependencies": {
+		"electron": "^22.0.0"
+	}
+}
